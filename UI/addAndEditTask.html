@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../stylesForUI/addAndEditTask.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="navbar-title">KanBan</div>
+      <div class="navbar-links">
+        <button class="navbar-link-wrapper">
+          <a class="navabar-link-for-add-task" href="./viewAllTasks.html"
+            >View All Tasks</a
+          >
+        </button>
+      </div>
+    </div>
+    <div class="form-wrapper">
+      <h1>Add Task</h1>
+      <form class="form-to-add-task">
+        <div class="label-input-wrapper">
+          <label for="task-title"> Add Title </label>
+          <input
+            type="text"
+            id="task-title"
+            class="title-input"
+            placeholder="Work on test"
+          />
+        </div>
+        <div class="label-input-wrapper">
+          <label for="task-description"> Add Description </label>
+          <input
+            type="text"
+            id="task-description"
+            class="description-input"
+            placeholder="mark all the answer sheets for test"
+          />
+        </div>
+        <div class="label-input-wrapper">
+          <label for="due-date-for-task">Add Due Date</label>
+          <input type="date" class="due-date-input" id="due-date-for-task" />
+        </div>
+        <button type="submit" class="add-task-submit">Add</button>
+      </form>
+    </div>
+  </body>
+</html>
